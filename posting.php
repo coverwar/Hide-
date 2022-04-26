@@ -26,6 +26,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'HIDE' => 'Hide',
 	'HIDE_HELPLINE' => 'Utilizzo: [hide]testo[/hide] o [hide inline=1]testo[/hide]',
-	'HIDDEN_CONTENT' => 'Contenuto Nascosto',
-	'HIDDEN_CONTENT_EXPLAIN' => 'Contenuto esclusivo per gli utenti registrati..'
+	'HIDDEN_CONTENT' => 'Contenuto non disponibile per gli ospiti',
+	'HIDDEN_CONTENT_EXPLAIN' => 'Devi essere un membro registrato per visualizzare questo argomento. '
 ]);
